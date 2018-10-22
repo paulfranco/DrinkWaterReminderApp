@@ -38,8 +38,10 @@ import com.example.android.background.utilities.PreferenceUtilities;
 public class MainActivity extends AppCompatActivity implements
         SharedPreferences.OnSharedPreferenceChangeListener {
 
+    // Initialize TextViews
     private TextView mWaterCountDisplay;
     private TextView mChargingCountDisplay;
+    // Initialize ImageView
     private ImageView mChargingImageView;
 
     private Toast mToast;
